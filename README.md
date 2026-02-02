@@ -222,10 +222,10 @@ If you have any questions or need help with setup, please:
 1. Check the documentation above
 2. Search existing issues
 3. Create a new issue with detailed description
-4. Contact: [your.email@example.com](mailto:your.email@example.com)
+4. Contact: [refanggalintar@gmail.com].
 
 ---
 
-**Built with ❤️ by [Your Name]**
+**Built with ❤️ by [Refangga Lintar Prayoga]**
 
 *Happy coding! 🚀*
