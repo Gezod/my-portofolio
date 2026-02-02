@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { FiCalendar, FiMapPin, FiAward } from 'react-icons/fi';
 import { PERSONAL_INFO, SKILLS, TIMELINE, TECH_CATEGORIES } from '../../utils/constants';
 import Card from '../UI/Card.jsx';
+import foto from '../../assets/foto.jpg';
 
 const About = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -55,7 +56,7 @@ const About = () => {
               <div className="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-6">
                 <div className="relative">
                   <img
-                    src="/src/assets/foto.jpg"
+                    src={foto}
                     alt="About me"
                     className="w-32 h-32 rounded-2xl object-cover"
                   />
