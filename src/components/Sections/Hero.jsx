@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { FiDownload, FiArrowDown, FiGithub, FiLinkedin } from 'react-icons/fi';
 import { PERSONAL_INFO, SOCIAL_LINKS } from '../../utils/constants';
 import Button from '../UI/Button';
+import foto from '../../assets/foto.jpg';
 
 const Hero = () => {
   const [displayedText, setDisplayedText] = useState('');
@@ -103,7 +104,7 @@ const Hero = () => {
             <div className="w-full h-full rounded-full bg-gradient-to-r from-primary-500 to-secondary-500 p-1">
               <div className="w-full h-full rounded-full overflow-hidden bg-white dark:bg-gray-800">
                 <img
-                  src="/src/assets/foto.jpg"
+                  src={foto}
                   alt="Refangga Lintar Prayoga"
                   className="w-full h-full object-cover"
                 />
