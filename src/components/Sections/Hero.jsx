@@ -103,7 +103,7 @@ const Hero = () => {
             <div className="w-full h-full rounded-full bg-gradient-to-r from-primary-500 to-secondary-500 p-1">
               <div className="w-full h-full rounded-full overflow-hidden bg-white dark:bg-gray-800">
                 <img
-                  src={require("../assets/foto.jpg")}
+                  src="/src/assets/foto.jpg"
                   alt="Refangga Lintar Prayoga"
                   className="w-full h-full object-cover"
                 />
