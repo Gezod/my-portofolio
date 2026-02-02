@@ -2,7 +2,7 @@
 import suhuImage from "../assets/suhu_1.png";
 import suhuImage2 from "../assets/hdc.png";
 import suhuImage3 from "../assets/bsis_1.png";
-import resumePDF from '../assets/CV_REFANGGA_20260201144831.pdf';
+import resumePDF from '../assets/CV_REFANGGA_20260202170736.pdf';
 export const PERSONAL_INFO = {
   name: "Refangga Lintar Prayoga",
   title: "Creative Developer & UI/UX Designer",
